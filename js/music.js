@@ -28,7 +28,7 @@ const media = {
         {
             name: 'Sáng mắt chưa?',
             singer: "Trúc Nhân",
-            path: './mp3/sang-matchua.mp3',
+            path: './mp3/sang-mat-chua.mp3',
             image: './img/sang-mat-chua.jpg'
         },{
             name: 'Có không giữ mất đừng tìm?',
