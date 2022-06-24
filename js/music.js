@@ -26,6 +26,17 @@ const media = {
     config: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
     songs: [
         {
+            name: 'Sáng mắt chưa?',
+            singer: "Trúc Nhân",
+            path: './mp3/sang-matchua.mp3',
+            image: './img/sang-mat-chua.jpg'
+        },{
+            name: 'Có không giữ mất đừng tìm?',
+            singer: "Trúc Nhân",
+            path: './mp3/co-khong-giu-mat-dung-tim.mp3',
+            image: './img/co-khong-giu-mat-dung-tim.jpg'
+        },
+        {
             name: 'Stereo Hearts (feat. Adam Levine)',
             singer: "Gym Class Heroes",
             path: './mp3/stereo-hearts.mp3',
@@ -36,7 +47,7 @@ const media = {
             singer: "Sia",
             path: './mp3/sunday.mp3',
             image: './img/sunday.jpg'
-        },
+        }
         
     ],
     setConfig: function(key, value){
